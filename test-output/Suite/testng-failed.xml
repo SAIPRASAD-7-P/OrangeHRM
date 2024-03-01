@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Axis.OrangeHRM.EmergencyContact">
+        <methods>
+          <include name="LOGIN"/>
+          <include name="setup"/>
+          <include name="addemergency"/>
+        </methods>
+      </class> <!-- Axis.OrangeHRM.EmergencyContact -->
+      <class name="Axis.OrangeHRM.Addimmigration">
+        <methods>
+          <include name="LOGIN"/>
+          <include name="AddImmigration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Axis.OrangeHRM.Addimmigration -->
+      <class name="Axis.OrangeHRM.DeleteImmigration">
+        <methods>
+          <include name="first"/>
+          <include name="LOGIN"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Axis.OrangeHRM.DeleteImmigration -->
+      <class name="Axis.OrangeHRM.AddAttachmentImmigration">
+        <methods>
+          <include name="Attachment"/>
+          <include name="LOGIN"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Axis.OrangeHRM.AddAttachmentImmigration -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
