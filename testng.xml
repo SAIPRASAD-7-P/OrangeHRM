@@ -6,15 +6,11 @@
     
      <!--  <class name="Axis.OrangeHRM.AppTest"/>  -->
        
-     <!-- <class name="Axis.OrangeHRM.HRMLogin"/>   -->
-      
-       <class name="Axis.OrangeHRM.AddAttachmentImmigration"/>  
-      
-      <!-- <class name="Axis.OrangeHRM.Addimmigration"/> 
-      
+       <class name="Axis.OrangeHRM.HRMLogin"/> 
+       <class name="Axis.OrangeHRM.AddAttachmentImmigration"/>    
+      <!-- <class name="Axis.OrangeHRM.Addimmigration"/>  -->
        <class name="Axis.OrangeHRM.DeleteImmigration"/>
-         
-       <class name="Axis.OrangeHRM.EmergencyContact"/>     -->
+       <class name="Axis.OrangeHRM.EmergencyContact"/>     
 
     </classes>
   </test> <!-- Test -->
